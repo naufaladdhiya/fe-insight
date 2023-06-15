@@ -7,13 +7,10 @@ const Hero = () => {
           className="max-w-sm rounded-lg shadow-2xl"
         />
         <div>
-          <h1 className="text-5xl font-bold">Digital Agency Business Laptop</h1>
+          <h1 className="text-5xl font-bold">Welcome</h1>
           <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+          Selamat datang di Situs Kategori Laptop! Di sini, Anda akan menemukan berbagai informasi terkait laptop yang dikategorikan berdasarkan tiga kategori utama: Gaming, Pendidikan, dan Desain. Apapun kebutuhan Anda, kami memiliki rekomendasi laptop terbaik yang sesuai dengan kebutuhan kategori tersebut.
           </p>
-          <button className="btn btn-primary">Get Started</button>
         </div>
       </div>
     </div>
