@@ -9,8 +9,8 @@ const Category = () => {
     setCategory(getAllLaptop());
   }, []);
   return (
-    <div className="container mx-auto min-h-screen">
-      <h1 className="text-3xl text-center">Rekomendasi Laptop</h1>
+    <div className="container mx-auto">
+      <h1 className="text-3xl text-center">choose the category of laptop you need here</h1>
       <CategoryList categories={category} />
     </div>
   );
