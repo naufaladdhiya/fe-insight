@@ -7,7 +7,9 @@ const Navigation = () => {
     <Fragment>
       <div className="navbar shadow-md bg-base-100 flex justify-between fixed top-0 z-40 pl-20 pr-20">
         <div className="flex-1">
-          <a className="text-xl font-bold">Hardware</a>
+          <Link to="/" className="text-xl font-bold">
+            Hardware Insight
+          </Link>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal text-lg gap-6">
