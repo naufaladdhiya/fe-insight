@@ -2,7 +2,8 @@ let categories = [
   {
     id: 1,
     name: 'Gaming',
-    description: 'click here to find your laptop !',
+    description:
+      'We will find you a high-performance gaming machine designed to take your gaming experience to the next level. Equipped with cutting-edge hardware and advanced features, this laptop is built for gamers who demand power, speed, and stunning visuals',
     laptops: [
       {
         nama: 'ASUS ROG Strix Scar III',
@@ -185,7 +186,8 @@ let categories = [
   {
     id: 2,
     name: 'Desain',
-    description: 'click here to find your laptop !',
+    description:
+      'We will find you a Laptop that have powerful machine specifically crafted for creative professionals and design enthusiasts. With its exceptional performance, vibrant display, and precision features, this laptop empowers you to bring your design ideas to life with unmatched precision and creativity.',
     laptops: [
       {
         nama: 'Apple MacBook Pro',
@@ -313,7 +315,8 @@ let categories = [
   {
     id: 3,
     name: 'Education',
-    description: 'click here to find your laptop !',
+    description:
+      'We will find you best Laptop for students and educators, designed to enhance the learning experience and facilitate academic pursuits. With its reliable performance, versatile features, and long battery life, this laptop empowers users to excel in their educational endeavors and stay productive wherever they go',
     laptops: [
       {
         nama: 'Apple MacBook Air',

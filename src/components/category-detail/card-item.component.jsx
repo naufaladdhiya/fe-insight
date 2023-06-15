@@ -15,7 +15,7 @@ const CardItem = ({ category }) => {
           <li>Layar: {spesifikasi.layar}</li>
           <li>Harga: {spesifikasi.harga}</li>
         </ul>
-        <div className="card-actions justify-center items-center">
+        <div className="card-actions justify-end items-center">
           <button className="btn btn-md btn-primary">Buy Now</button>
         </div>
       </div>

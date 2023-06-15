@@ -12,7 +12,7 @@ const Footer = () => {
         <span className="footer-title">Study In</span>
         <a className="link link-hover">Universitas Muhammadiyah Surakarta</a>
         <a className="link link-hover">Universitas Riau</a>
-        <a className="link link-hover">universitas Jakarta Raya</a>
+        <a className="link link-hover">Universitas Jakarta Raya</a>
 
       </div>
       <div>
@@ -21,7 +21,7 @@ const Footer = () => {
         <a className="link link-hover">Dicoding</a>
       </div>
       <div>
-        <span className="footer-title">Company</span>
+        <span className="footer-title">NavLink</span>
         <a className="link link-hover">
           <Link to="/">Home</Link>
         </a>

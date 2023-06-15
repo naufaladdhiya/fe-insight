@@ -13,12 +13,12 @@ const FunFact = () => {
         {
             id: 3,
             title: 'UNIVAC I',
-            description: 'adalah komputer komersial pertama yang dijual di Amerika Serikat. Perusahaan (Eckert Mauchly Computer Corporation) di belakangnya dibangun oleh orang yang sama yang menemukan ENIAC.',
+            description: 'Adalah komputer komersial pertama yang dijual di Amerika Serikat. Perusahaan (Eckert Mauchly Computer Corporation) di belakangnya dibangun oleh orang yang sama yang menemukan ENIAC.',
         },
         {
             id: 4,
             title: 'INTERLAC',
-            description: 'dikembangkan sebagai eksperimen untuk menguji batas-batas bahasa pemrograman. Ini termasuk pengubah “TOLONG” jika tidak cukup digunakan  kompilator memperlakukannya sebagai kesalahan. Pernyataan lain seperti “BACA”, “LUPA”, dan “ABAIKAN”.',
+            description: 'Dikembangkan sebagai eksperimen untuk menguji batas-batas bahasa pemrograman. Ini termasuk pengubah “TOLONG” jika tidak cukup digunakan  kompilator memperlakukannya sebagai kesalahan. Pernyataan lain seperti “BACA”, “LUPA”, dan “ABAIKAN”.',
         },
     ];
 

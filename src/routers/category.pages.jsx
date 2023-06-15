@@ -10,7 +10,7 @@ const Category = () => {
   }, []);
   return (
     <div className="container mx-auto">
-      <h1 className="text-3xl text-center">choose the category of laptop you need here</h1>
+      <h1 className="text-3xl text-center font-bold mt-4">Choose Categories</h1>
       <CategoryList categories={category} />
     </div>
   );

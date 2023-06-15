@@ -27,8 +27,10 @@ const DetailCategoryPage = () => {
   }, [keyword, id]);
 
   return (
-    <div className="container mx-auto">
-      <h1 className="text-3xl text-center">Rekomendasi Laptop</h1>
+    <div className="container mx-auto min-h-screen">
+      <h1 className="text-3xl text-center font-bold mt-4">
+        Find Your Own Laptop
+      </h1>
       <SearchLaptop keyword={keyword} onChangeHandler={onSearch} />
       {category.length > 0 ? (
         <CardList categories={category} />

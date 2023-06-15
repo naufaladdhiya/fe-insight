@@ -8,12 +8,12 @@ const CategoryItem = ({ category }) => {
         <img src="https://source.unsplash.com/random/900×700/?web" alt={name} />
       </figure>
       <div key={id} className="card-body">
-        <h2 className="card-title justify-center items-center">{name}</h2>
+        <h2 className="card-title">{name}</h2>
         <p className="justify-center items-center">{description}</p>
-        <div className="card-actions justify-end justify-center items-center">
-          <button className="btn btn-primary ">
-            <Link to={`/category/${id}`}>{name}</Link>
-          </button>
+        <div className="card-actions justify-end items-center">
+          <Link to={`/category/${id}`}>
+            <button className="btn btn-primary ">{name}</button>
+          </Link>
         </div>
       </div>
     </div>
