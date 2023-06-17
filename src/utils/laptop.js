@@ -2,8 +2,7 @@ let categories = [
   {
     id: 1,
     name: 'Gaming',
-    description:
-      'We will find you a high-performance gaming machine designed to take your gaming experience to the next level. Equipped with cutting-edge hardware and advanced features, this laptop is built for gamers who demand power, speed, and stunning visuals',
+    description: 'click here to find your laptop !',
     laptops: [
       {
         nama: 'ASUS ROG Strix Scar III',
@@ -15,7 +14,7 @@ let categories = [
           layar: '15.6 inci Full HD 144Hz',
           harga: 'Rp. 29.800.000',
         },
-        gambar: 'https://example.com/gambar/asus_rog_strix_scar_iii.jpg',
+        gambar: '../../public/assets/images/gaming.png',
       },
       {
         nama: 'MSI GS65 Stealth',
@@ -27,7 +26,7 @@ let categories = [
           layar: '15.6 inci Full HD 240Hz',
           harga: 'Rp. 26.785.000',
         },
-        gambar: 'https://example.com/gambar/msi_gs65_stealth.jpg',
+        gambar: '../../public/assets/images/2G.png',
       },
       {
         id: 3,
@@ -40,7 +39,7 @@ let categories = [
           layar: '15.6 inci 4K OLED Touch',
           harga: 'Rp. 43.200.000',
         },
-        gambar: 'https://example.com/gambar/razer_blade_15.jpg',
+        gambar: '../../public/assets/images/3G.png',
       },
       {
         nama: 'Acer Predator Helios 300',
@@ -52,7 +51,7 @@ let categories = [
           layar: '15.6 inci Full HD 144Hz',
           harga: 'Rp. 22.300.000',
         },
-        gambar: 'https://example.com/gambar/acer_predator_helios_300.jpg',
+        gambar: '../../public/assets/images/4G.png',
       },
       {
         nama: 'Dell G5 15 SE',
@@ -64,7 +63,7 @@ let categories = [
           layar: '15.6 inci Full HD 144Hz',
           harga: 'Rp. 17.800.000',
         },
-        gambar: 'https://example.com/gambar/dell_g5_15_se.jpg',
+        gambar: '../../public/assets/images/5G.png',
       },
       {
         nama: 'Lenovo Legion 5i',
@@ -76,7 +75,7 @@ let categories = [
           layar: '15.6 inci Full HD 165Hz',
           harga: 'Rp. 28.300.000',
         },
-        gambar: 'https://example.com/gambar/lenovo_legion_5i.jpg',
+        gambar: '../../public/assets/images/6G.png',
       },
       {
         nama: 'HP Omen 15',
@@ -88,7 +87,7 @@ let categories = [
           layar: '15.6 inci 4K OLED',
           harga: 'Rp. 44.600.000',
         },
-        gambar: 'https://example.com/gambar/hp_omen_15.jpg',
+        gambar: '../../public/assets/images/7G.png',
       },
       {
         nama: 'Alienware m15 R4',
@@ -100,7 +99,7 @@ let categories = [
           layar: '15.6 inci Full HD 300Hz',
           harga: 'Rp. 49.100.000',
         },
-        gambar: 'https://example.com/gambar/alienware_m15_r4.jpg',
+        gambar: '../../public/assets/images/8G.png',
       },
       {
         nama: 'Gigabyte Aorus 15G',
@@ -112,7 +111,7 @@ let categories = [
           layar: '15.6 inci Full HD 240Hz',
           harga: 'Rp. 32.800.000',
         },
-        gambar: 'https://example.com/gambar/gigabyte_aorus_15g.jpg',
+        gambar: '../../public/assets/images/9G.png',
       },
       {
         nama: 'Lenovo Legion 7i',
@@ -124,7 +123,7 @@ let categories = [
           layar: '15.6 inci 4K IPS',
           harga: 'Rp. 52.096.436',
         },
-        gambar: 'https://example.com/gambar/lenovo_legion_7i.jpg',
+        gambar: '../../public/assets/images/10G.png',
       },
       {
         nama: 'Lenovo IdeaPad L340 Gaming',
@@ -136,6 +135,7 @@ let categories = [
           layar: '15.6 inci FHD 60Hz',
           harga: 'Rp. 10.000.000',
         },
+        gambar: '../../public/assets/images/11G.png',
       },
       {
         nama: 'HP Pavilion Gaming',
@@ -147,6 +147,7 @@ let categories = [
           layar: '15.6 inci FHD 60Hz',
           harga: 'Rp. 11.000.000',
         },
+        gambar: '../../public/assets/images/12G.png',
       },
       {
         nama: 'ASUS TUF Gaming FX505',
@@ -158,6 +159,7 @@ let categories = [
           layar: '15.6 inci FHD 120Hz',
           harga: 'Rp.11.500.000',
         },
+        gambar: '../../public/assets/images/13G.png',
       },
       {
         nama: 'Acer Predator Helios 300',
@@ -169,6 +171,7 @@ let categories = [
           layar: '15.6 inci FHD 144Hz',
           harga: 'Rp.14.000.000',
         },
+        gambar: '../../public/assets/images/14G.png',
       },
       {
         nama: 'MSI GF63 Thin',
@@ -180,14 +183,14 @@ let categories = [
           layar: '15.6 inci FHD 60Hz',
           harga: 'Rp.12.500.000',
         },
+        gambar: '../../public/assets/images/15G.png',
       },
     ],
   },
   {
     id: 2,
     name: 'Desain',
-    description:
-      'We will find you a Laptop that have powerful machine specifically crafted for creative professionals and design enthusiasts. With its exceptional performance, vibrant display, and precision features, this laptop empowers you to bring your design ideas to life with unmatched precision and creativity.',
+    description: 'click here to find your laptop !',
     laptops: [
       {
         nama: 'Apple MacBook Pro',
@@ -199,7 +202,7 @@ let categories = [
           layar: '13.3 inci Retina Display',
           harga: 'Rp. 19.500.000',
         },
-        gambar: 'https://example.com/gambar/apple_macbook_pro.jpg',
+        gambar: '../../public/assets/images/1D.png',
       },
       {
         nama: 'Dell XPS 15',
@@ -211,7 +214,7 @@ let categories = [
           layar: '15.6 inci 4K OLED Touch',
           harga: 'Rp. 29.800.000',
         },
-        gambar: 'https://example.com/gambar/dell_xps_15.jpg',
+        gambar: '../../public/assets/images/2D.png',
       },
       {
         nama: 'HP Spectre x360',
@@ -223,8 +226,7 @@ let categories = [
           layar: '13.3 inci 4K OLED Touch',
           harga: 'Rp. 23.800.000',
         },
-        harga: '$1,599',
-        gambar: 'https://example.com/gambar/hp_spectre_x360.jpg',
+        gambar: '../../public/assets/images/3D.png',
       },
       {
         nama: 'Lenovo ThinkPad X1 Carbon',
@@ -236,7 +238,7 @@ let categories = [
           layar: '14 inci 4K HDR',
           harga: 'Rp. 28.200.000',
         },
-        gambar: 'https://example.com/gambar/lenovo_thinkpad_x1_carbon.jpg',
+        gambar: '../../public/assets/images/4D.png',
       },
       {
         nama: 'Microsoft Surface Book 3',
@@ -248,7 +250,7 @@ let categories = [
           layar: '15 inci PixelSense Display',
           harga: 'Rp. 37.200.000',
         },
-        gambar: 'https://example.com/gambar/microsoft_surface_book_3.jpg',
+        gambar: '../../public/assets/images/5D.png',
       },
       {
         nama: 'ASUS ZenBook Pro Duo',
@@ -260,7 +262,7 @@ let categories = [
           layar: '15.6 inci 4K OLED Touch',
           harga: 'Rp. 44.000.000',
         },
-        gambar: 'https://example.com/gambar/asus_zenbook_pro_duo.jpg',
+        gambar: '../../public/assets/images/6D.png',
       },
       {
         nama: 'Acer ConceptD 7',
@@ -272,7 +274,7 @@ let categories = [
           layar: '15.6 inci 4K IPS',
           harga: 'Rp. 40.100.000',
         },
-        gambar: 'https://example.com/gambar/acer_conceptd_7.jpg',
+        gambar: '../../public/assets/images/7D.png',
       },
       {
         nama: 'MSI Creator 17',
@@ -284,7 +286,7 @@ let categories = [
           layar: '17.3 inci 4K Mini LED',
           harga: 'Rp. 47.600.000',
         },
-        gambar: 'https://example.com/gambar/msi_creator_17.jpg',
+        gambar: '../../public/assets/images/8D.png',
       },
       {
         nama: 'Razer Blade 15 Studio Edition',
@@ -296,7 +298,7 @@ let categories = [
           layar: '15.6 inci 4K OLED Touch',
           harga: 'Rp. 56.500.000',
         },
-        gambar: 'https://example.com/gambar/razer_blade_15_studio.jpg',
+        gambar: '../../public/assets/images/9D.png',
       },
       {
         nama: 'Gigabyte Aero 15 OLED',
@@ -308,15 +310,14 @@ let categories = [
           layar: '15.6 inci 4K OLED',
           harga: 'Rp. 52.000.000',
         },
-        gambar: 'https://example.com/gambar/gigabyte_aero_15_oled.jpg',
+        gambar: '../../public/assets/images/10D.png',
       },
     ],
   },
   {
     id: 3,
     name: 'Education',
-    description:
-      'We will find you best Laptop for students and educators, designed to enhance the learning experience and facilitate academic pursuits. With its reliable performance, versatile features, and long battery life, this laptop empowers users to excel in their educational endeavors and stay productive wherever they go',
+    description: 'click here to find your laptop !',
     laptops: [
       {
         nama: 'Apple MacBook Air',
@@ -328,7 +329,7 @@ let categories = [
           layar: '13.3 inci Retina Display',
           harga: 'Rp. 14.800.000',
         },
-        gambar: 'https://example.com/gambar/apple_macbook_air.jpg',
+        gambar: '../../public/assets/images/1P.png',
       },
       {
         nama: 'Lenovo ThinkPad X1 Carbon',
@@ -340,7 +341,7 @@ let categories = [
           layar: '14 inci Full HD',
           harga: 'Rp. 19.300.000',
         },
-        gambar: 'https://example.com/gambar/lenovo_thinkpad_x1_carbon.jpg',
+        gambar: '../../public/assets/images/2P.png',
       },
       {
         nama: 'ASUS VivoBook 15',
@@ -352,7 +353,7 @@ let categories = [
           layar: '15.6 inci Full HD',
           harga: 'Rp. 10.400.000',
         },
-        gambar: 'https://example.com/gambar/asus_vivobook_15.jpg',
+        gambar: '../../public/assets/images/3P.png',
       },
       {
         nama: 'HP Pavilion 14',
@@ -364,7 +365,7 @@ let categories = [
           layar: '14 inci Full HD',
           harga: 'Rp. 7.400.000',
         },
-        gambar: 'https://example.com/gambar/hp_pavilion_14.jpg',
+        gambar: '../../public/assets/images/4P.png',
       },
       {
         nama: 'Acer Swift 3',
@@ -376,7 +377,7 @@ let categories = [
           layar: '14 inci Full HD',
           harga: 'Rp. 11.900.000',
         },
-        gambar: 'https://example.com/gambar/acer_swift_3.jpg',
+        gambar: '../../public/assets/images/5P.png',
       },
       {
         nama: 'Dell Inspiron 15',
@@ -388,7 +389,7 @@ let categories = [
           layar: '15.6 inci Full HD',
           harga: 'Rp. 13.300.000',
         },
-        gambar: 'https://example.com/gambar/dell_inspiron_15.jpg',
+        gambar: '../../public/assets/images/6P.png',
       },
       {
         nama: 'Microsoft Surface Laptop 4',
@@ -400,7 +401,7 @@ let categories = [
           layar: '13.5 inci PixelSense Display',
           harga: 'Rp. 22.300.000',
         },
-        gambar: 'https://example.com/gambar/microsoft_surface_laptop_4.jpg',
+        gambar: '../../public/assets/images/7P.png',
       },
       {
         nama: 'Huawei MateBook 14',
@@ -412,7 +413,7 @@ let categories = [
           layar: '14 inci 2K',
           harga: 'Rp. 13.400.000',
         },
-        gambar: 'https://example.com/gambar/huawei_matebook_14.jpg',
+        gambar: '../../public/assets/images/8P.png',
       },
       {
         nama: 'Samsung Galaxy Book Flex 2',
@@ -424,7 +425,7 @@ let categories = [
           layar: '13.3 inci QLED Touch',
           harga: 'Rp. 16.300.000',
         },
-        gambar: 'https://example.com/gambar/samsung_galaxy_book_flex_2.jpg',
+        gambar: '../../public/assets/images/9P.png',
       },
       {
         nama: 'ASUS Chromebook Flip C434',
@@ -436,7 +437,7 @@ let categories = [
           layar: '14 inci Full HD Touch',
           harga: 'Rp. 7.400.000',
         },
-        gambar: 'https://example.com/gambar/asus_chromebook_flip_c434.jpg',
+        gambar: '../../public/assets/images/10P.png',
       },
     ],
   },
