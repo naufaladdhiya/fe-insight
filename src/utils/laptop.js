@@ -3,6 +3,7 @@ let categories = [
     id: 1,
     name: 'Gaming',
     description: 'click here to find your laptop !',
+    photo: '../../public/assets/images/gaming.png',
     laptops: [
       {
         nama: 'ASUS ROG Strix Scar III',
@@ -14,7 +15,7 @@ let categories = [
           layar: '15.6 inci Full HD 144Hz',
           harga: 'Rp. 29.800.000',
         },
-        gambar: '../../public/assets/images/gaming.png',
+        gambar: '../../public/assets/images/IG.png',
       },
       {
         nama: 'MSI GS65 Stealth',
@@ -191,6 +192,7 @@ let categories = [
     id: 2,
     name: 'Desain',
     description: 'click here to find your laptop !',
+    photo: '../../public/assets/images/desain.png',
     laptops: [
       {
         nama: 'Apple MacBook Pro',
@@ -318,6 +320,7 @@ let categories = [
     id: 3,
     name: 'Education',
     description: 'click here to find your laptop !',
+    photo: '../../public/assets/images/pendidikan.png',
     laptops: [
       {
         nama: 'Apple MacBook Air',
