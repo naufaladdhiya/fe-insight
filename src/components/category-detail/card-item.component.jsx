@@ -1,12 +1,12 @@
 const CardItem = ({ category }) => {
   const { nama, spesifikasi, gambar } = category;
   return (
-    <div className="card bg-base-100 shadow-xl">
+    <div className="shadow-xl card bg-base-100">
       <figure>
-        <img src={gambar} alt={nama} />
+        <img src={gambar} alt={nama} className="max-w-md bg-cover max-h-56" />
       </figure>
       <div className="card-body">
-        <p className="text-center font-bold text-blue-500">{nama}</p>
+        <p className="font-bold text-center text-blue-500">{nama}</p>
         <ul>
           <li>Processor: {spesifikasi.processor}</li>
           <li>RAM: {spesifikasi.ram}</li>
@@ -15,7 +15,7 @@ const CardItem = ({ category }) => {
           <li>Layar: {spesifikasi.layar}</li>
           <li>Harga: {spesifikasi.harga}</li>
         </ul>
-        <div className="card-actions justify-center items-center">
+        <div className="items-center justify-end card-actions">
           <button className="btn btn-md btn-primary">Buy Now</button>
         </div>
       </div>
