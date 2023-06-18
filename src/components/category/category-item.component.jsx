@@ -10,7 +10,7 @@ const CategoryItem = ({ category }) => {
       <div key={id} className="card-body">
         <h2 className="card-title justify-center items-center">{name}</h2>
         <p className="justify-center items-center">{description}</p>
-        <div className="card-actions justify-end justify-center items-center">
+        <div className="card-actions justify-end items-center">
           <button className="btn btn-primary ">
             <Link to={`/category/${id}`}>{name}</Link>
           </button>

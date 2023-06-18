@@ -1,5 +1,7 @@
 import Hero from '../components/hero.component';
 import FunFact from '../components/home-funfact/card-item.component';
+import Faq from '../components/home-funfact/faq.component';
+import HardwareExplanation from '../components/home-funfact/hardware-explanation';
 
 const Home = () => {
   return (
@@ -7,6 +9,7 @@ const Home = () => {
       <div className=" p-28">
         <Hero />
       </div>
+
       <div className="bg-gray-50 p-10">
         <div>
           <h2 className="text-5xl font-bold text-center ">Fun Fact</h2>
@@ -15,6 +18,15 @@ const Home = () => {
           <FunFact />
         </div>
       </div>
+
+      <div>
+        <HardwareExplanation />
+      </div>
+      
+      <div>
+        <Faq />
+      </div>
+
     </div>
   );
 };
