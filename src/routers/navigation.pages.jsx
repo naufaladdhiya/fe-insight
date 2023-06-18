@@ -1,18 +1,34 @@
-import { Fragment } from 'react';
-import { Outlet, Link } from 'react-router-dom';
-import Footer from '../components/footer.component';
+import { Fragment, useContext, useEffect } from "react";
+import { Outlet, Link } from "react-router-dom";
+
+import { UserContext } from "../context/user.context";
+
+import { signOutUser } from "../utils/firebase/firebase.utils";
+
+import Footer from "../components/footer.component";
 
 const Navigation = () => {
+  const { currentUser, setCurrentUser } = useContext(UserContext);
+
+  const signOutHandler = async () => {
+    await signOutUser();
+    setCurrentUser(null);
+  };
+
+  useEffect(() => {
+    // This will run every time currentUser changes
+    console.log("currentUser changed:", currentUser);
+  }, [currentUser]);
   return (
     <Fragment>
-      <div className="navbar shadow-md bg-base-100 flex justify-between fixed top-0 z-40 pl-20 pr-20">
+      <div className="fixed top-0 z-40 flex justify-between pl-20 pr-20 shadow-md navbar bg-base-100">
         <div className="flex-1">
           <Link to="/" className="text-xl font-bold">
             Hardware Insight
           </Link>
         </div>
         <div className="flex-none">
-          <ul className="menu menu-horizontal text-lg gap-6">
+          <ul className="gap-6 text-lg menu menu-horizontal">
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -23,6 +39,11 @@ const Navigation = () => {
               <Link to="/about-us">About Us</Link>
             </li>
           </ul>
+          {currentUser ? (
+            <button onClick={signOutHandler}>Sign Out</button>
+          ) : (
+            <Link to="/auth">Sign in</Link>
+          )}
         </div>
       </div>
       <Outlet />
