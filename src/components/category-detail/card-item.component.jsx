@@ -1,7 +1,8 @@
-const CardItem = ({ category }) => {
+const CardItem = ({ category, onSetModal }) => {
   const { nama, spesifikasi, gambar } = category;
+
   return (
-    <div className="shadow-xl card bg-base-100">
+    <div className="relative shadow-xl card bg-base-100">
       <figure>
         <img src={gambar} alt={nama} className="max-w-md bg-cover max-h-56" />
       </figure>
@@ -16,9 +17,14 @@ const CardItem = ({ category }) => {
           <li>Harga: {spesifikasi.harga}</li>
         </ul>
         <div className="items-center justify-end card-actions">
-          <button className="btn btn-md btn-primary">Buy Now</button>
+          <button className="btn btn-md btn-primary" onClick={onSetModal}>
+            Buy Now
+          </button>
         </div>
       </div>
+      {/* {!showModal ? null : (
+        <CardModal {...category} handler={closeModalHandler} />
+      )} */}
     </div>
   );
 };

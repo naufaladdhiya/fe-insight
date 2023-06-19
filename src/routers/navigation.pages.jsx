@@ -17,7 +17,6 @@ const Navigation = () => {
 
   useEffect(() => {
     // This will run every time currentUser changes
-    console.log("currentUser changed:", currentUser);
   }, [currentUser]);
   return (
     <Fragment>

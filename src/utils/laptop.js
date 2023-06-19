@@ -8,7 +8,7 @@ let categories = [
       {
         nama: "ASUS ROG Strix Scar III",
         spesifikasi: {
-          processor: "Intel Core i7-9750H",
+          processor: "Intel Core i7-9750H", 
           ram: "16GB DDR4",
           storage: "512GB SSD + 1TB HDD",
           grafis: "NVIDIA GeForce RTX 2070",
