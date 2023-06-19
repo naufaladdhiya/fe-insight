@@ -1,8 +1,7 @@
 const CardItem = ({ category, onSetModal }) => {
   const { nama, spesifikasi, gambar } = category;
-
   return (
-    <div className="relative shadow-xl card bg-base-100">
+    <div className="shadow-xl card bg-base-100">
       <figure>
         <img src={gambar} alt={nama} className="max-w-md bg-cover max-h-56" />
       </figure>
@@ -22,9 +21,6 @@ const CardItem = ({ category, onSetModal }) => {
           </button>
         </div>
       </div>
-      {/* {!showModal ? null : (
-        <CardModal {...category} handler={closeModalHandler} />
-      )} */}
     </div>
   );
 };

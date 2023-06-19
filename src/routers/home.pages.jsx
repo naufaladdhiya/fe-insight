@@ -1,6 +1,7 @@
-import Hero from '../components/hero.component';
-import FunFact from '../components/home-funfact/card-item.component';
-import CardModal from '../components/category-detail/card-modal.component';
+import Hero from "../components/hero.component";
+import FunFact from "../components/home-funfact/card-item.component";
+import Faq from "../components/home-funfact/faq.component";
+import HardwareExplanation from "../components/home-funfact/hardware-explanation";
 
 const Home = () => {
   return (
@@ -12,10 +13,17 @@ const Home = () => {
         <div>
           <h2 className="text-5xl font-bold text-center ">Fun Fact</h2>
         </div>
-        <div >
+        <div>
           <FunFact />
-          <CardModal />
         </div>
+      </div>
+
+      <div>
+        <HardwareExplanation />
+      </div>
+
+      <div>
+        <Faq />
       </div>
     </div>
   );

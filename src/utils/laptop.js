@@ -2,13 +2,14 @@ let categories = [
   {
     id: 1,
     name: "Gaming",
-    description: "click here to find your laptop !",
+    description:
+      "Kami menyediakan jenis laptop secara khusus dirancang untuk memberikan performa yang kuat dan pengalaman gaming yang imersif bagi para gamer yang rajin saat bepergian. Mesin portabel ini menggabungkan teknologi mutakhir, komponen kelas atas, dan fitur canggih untuk memenuhi tuntutan permintaan video game modern.",
     photo: "../../public/assets/images/gaming.png",
     laptops: [
       {
         nama: "ASUS ROG Strix Scar III",
         spesifikasi: {
-          processor: "Intel Core i7-9750H", 
+          processor: "Intel Core i7-9750H",
           ram: "16GB DDR4",
           storage: "512GB SSD + 1TB HDD",
           grafis: "NVIDIA GeForce RTX 2070",
@@ -191,7 +192,8 @@ let categories = [
   {
     id: 2,
     name: "Desain",
-    description: "click here to find your laptop !",
+    description:
+      "Kami menyediakan jenis laptop khusus untuk para desainer, laptop ini memadukan performa, dan keserbagunaan untuk memenuhi tuntutan kebutuhan para profesional kreatif. Laptop ini dirancang untuk menangani aplikasi desain intensif sumber daya, seperti desain grafis, pemodelan 3D.",
     photo: "../../public/assets/images/desain.png",
     laptops: [
       {
@@ -319,7 +321,8 @@ let categories = [
   {
     id: 3,
     name: "Education",
-    description: "click here to find your laptop !",
+    description:
+      "Kami menyediakan jenis laptop serbaguna dan penting untuk mendukung kegiatan pendidikan, produktivitas, dan kebutuhan pribadi. Hal ini dirancang untuk memberikan keseimbangan kinerja, portabilitas, dan keterjangkauan sambil melayani kebutuhan khusus siswa.",
     photo: "../../public/assets/images/pendidikan.png",
     laptops: [
       {
