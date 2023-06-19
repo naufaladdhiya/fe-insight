@@ -16,7 +16,7 @@ let categories = [
           layar: "15.6 inci Full HD 144Hz",
           harga: "Rp. 29.800.000",
         },
-        gambar: "../../public/assets/images/1G.png",
+        gambar: "./assets/images/1G.png",
       },
       {
         nama: "MSI GS65 Stealth",
